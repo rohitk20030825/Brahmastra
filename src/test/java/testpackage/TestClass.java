@@ -15,6 +15,17 @@ public class TestClass {
 	public void testMethod1() {
 		System.out.println("Hello World Program");
 	}
+	
+	@Test
+	public void testMethod2() throws Exception {
+		System.out.println("Hello World Program");
+		throw new Exception("TC Failed");
+	}
+	
+	@Test
+	public void testMethod3() {
+		System.out.println("Hello World Program");
+	}
 
 	@AfterTest
 	public void cleanup() {
