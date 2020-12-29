@@ -18,7 +18,6 @@ public class TestClass {
 		System.out.println("Hello World Program");
 	}
 	
-	
 	@AfterTest
 	public void cleanup() {
 		System.out.println("This is going to clean up the residue");
